@@ -1,10 +1,12 @@
-package com.redplanet.testdialog;
+package com.redplanet.testdialog.ui;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class MainActActivity extends Activity {
+import com.redplanet.testdialog.R;
+
+public class Main extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +16,6 @@ public class MainActActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main_act, menu);
         return true;
     }
