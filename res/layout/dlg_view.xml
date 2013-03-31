@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dlg_bg"
+    android:paddingTop="@dimen/thirtyDp" >
+
+    <TextView
+        android:id="@+id/dlgTitle"
+        style="@style/DlgTextAppearence.Title"
+        android:paddingLeft="@dimen/sixteenDp"
+        android:paddingRight="@dimen/sixteenDp"
+        android:textIsSelectable="false"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dlgMessage"
+        style="@style/DlgTextAppearence"
+        android:layout_below="@id/dlgTitle"
+        android:paddingLeft="@dimen/sixteenDp"
+        android:paddingRight="@dimen/sixteenDp"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:id="@+id/dlgButtonsWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dlgMessage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/sixteenDp"
+        android:paddingRight="@dimen/sixteenDp" >
+
+        <Space
+            android:id="@+id/dlgSideViewLeft"
+            style="@style/DlgSideEmptyViewAppearence" />
+
+        <Button
+            android:id="@+id/dlgBtnNeg"
+            style="@style/DlgBtnAppearence"
+            android:text="@android:string/no" />
+
+        <Button
+            android:id="@+id/dlgBtnNeu"
+            style="@style/DlgBtnAppearence"
+            android:layout_marginLeft="@dimen/sixDp"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/dlgBtnPos"
+            style="@style/DlgBtnAppearence"
+            android:layout_marginLeft="@dimen/sixDp"
+            android:text="@android:string/cancel" />
+
+        <Space
+            android:id="@+id/dlgSideViewRight"
+            style="@style/DlgSideEmptyViewAppearence" />
+    </LinearLayout>
+
+</RelativeLayout>

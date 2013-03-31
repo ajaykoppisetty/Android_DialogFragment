@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- EcopsyDialog (wrapper layout) -->
+    <style name="DlgWrapperLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/dlg_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/twentyDp</item>
+        <item name="android:paddingRight">@dimen/twentyDp</item>
+        <item name="android:paddingTop">@dimen/twentyDp</item>
+    </style>
+
+    <!-- EcopsyDialog (message) -->
+    <style name="DlgTextAppearence" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:lineSpacingMultiplier">@dimen/one_point_three</item>
+        <item name="android:textSize">@dimen/sixteenSp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:layout_marginBottom">@dimen/twentyDp</item>
+        <item name="android:paddingBottom">@dimen/sixDp</item>
+    </style>
+
+    <!-- EcopsyDialog (title, bold) -->
+    <style name="DlgTextAppearence.Title">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- (OFF NOW) EcopsyDialog (an empty view taking up a little space in order to the buttons not to take up all the free space) -->
+    <style name="DlgSideEmptyViewAppearence">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- EcopsyDialog (buttons) -->
+    <style name="DlgBtnAppearence">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">0dip</item>
+        <!-- <item name="android:singleLine">true</item> -->
+
+        <item name="android:layout_weight">0.35</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/btn_bg_pic</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

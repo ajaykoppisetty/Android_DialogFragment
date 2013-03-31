@@ -1,7 +1,52 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="screen_center_top_left_right_padding">120dp</dimen>
+    <dimen name="in_the_center_of_screen_marginTop">7dp</dimen>
+    <dimen name="light_rl_padding">30dp</dimen>
+    <dimen name="light_rl_padding_bottom">60dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="stroke_width_in_px">2px</dimen>
+    <dimen name="stroke_width_neg">-2dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="thirtyDp">30dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="sixtyDp">60dp</dimen>
+    <dimen name="twenty_two_sp">22sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="comment_text_size">16sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="simple_text_size">18sp</dimen>
+    <dimen name="comment_dlg_et_max_height">130dp</dimen>
+    <dimen name="competence_name_text_size">28sp</dimen>
+    <dimen name="hundred_seventy">170dp</dimen>
+
+    <item name="line_spacing_multiplier" format="float" type="dimen">1.3</item>
+    <item name="grading_complexity_layout_weight" format="float" type="dimen">0.05</item>
+    <item name="grading_bullets_layout_weight" format="float" type="dimen">0.95</item>
+    <item name="simple_text_line_spacing_multiplier" format="float" type="dimen">1.3</item>
+
+    <integer name="grad_angle">-90</integer>
+
+    <!-- New style -->
+    <dimen name="fifteenDp">15dp</dimen>
+    <dimen name="sixteenDp">16dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+    <dimen name="sixDp">6dp</dimen>
+    <dimen name="twentyDp">20dp</dimen>
+    <dimen name="eightyDp">80dp</dimen>
+    <dimen name="sixteenSp">16sp</dimen>
+    <dimen name="eighteenSp">18sp</dimen>
+    <dimen name="fourteenSp">14sp</dimen>
+    <dimen name="oneHundredSeventyDp">170dp</dimen>
+    <dimen name="twoHundredThirtyDp">230dp</dimen>
+    <dimen name="oneHundredFiftyDp">150dp</dimen>
+    <dimen name="oneHundredTwentyDp">120dp</dimen>
+    <dimen name="twentyFiveDp">25dp</dimen>
+    <dimen name="fortyDp">40dp</dimen>
+    
+    <item name="one_point_three" format="float" type="dimen">1.3</item>
 
 </resources>

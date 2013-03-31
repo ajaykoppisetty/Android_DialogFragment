@@ -14,7 +14,6 @@ import android.text.TextUtils;
  * ://megadarja.blogspot.ru/2012/11/androidlogwrapper.html</a>
  */
 @SuppressLint("DefaultLocale")
-@SuppressWarnings("unused")
 public class Log {
 
     /*
